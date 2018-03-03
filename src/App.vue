@@ -25,15 +25,15 @@
             </div>
             <div id="navbarMenu" class="navbar-menu" :class="{'is-active': isActive}">
             <div class="navbar-end">
-              <a class="navbar-item is-active">
+              <router-link to="/" class="navbar-item" active-class="is-active">
                 Домашня сторінка
-              </a>
-              <a class="navbar-item">
+              </router-link>
+              <router-link to="/projects" class="navbar-item">
                 Проекти
-              </a>
-              <a class="navbar-item">
+              </router-link>
+              <router-link to="/fotos" class="navbar-item">
                 Фото
-              </a>
+              </router-link>
               <span class="navbar-item">
                 <a class="button is-white is-outlined is-small" href="https://www.facebook.com/CoWorking.Shostka/">
                   <span class="icon">
