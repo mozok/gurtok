@@ -26,13 +26,13 @@
             <div id="navbarMenu" class="navbar-menu" :class="{'is-active': isActive}">
             <div class="navbar-end">
               <a class="navbar-item is-active">
-                Home
+                Домашня сторінка
               </a>
               <a class="navbar-item">
-                Examples
+                Проекти
               </a>
               <a class="navbar-item">
-                Documentation
+                Фото
               </a>
               <span class="navbar-item">
                 <a class="button is-white is-outlined is-small" href="https://www.facebook.com/CoWorking.Shostka/">
@@ -102,7 +102,7 @@ header span {
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('https://unsplash.it/g/1200/900?random') no-repeat center center fixed;
+    ), url('https://unsplash.it/1200/900?image=36') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
