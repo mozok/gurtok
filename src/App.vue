@@ -14,7 +14,7 @@
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item" href="../">
-              <img src="../static/img/it.jpg" alt="Logo">
+              <img src="../static/img/it.png" alt="Logo">
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu"
               :class="{'is-active': isActive}" @click="isActive = !isActive">
