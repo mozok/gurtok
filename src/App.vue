@@ -28,12 +28,12 @@
               <router-link to="/" class="navbar-item" active-class="is-active">
                 Домашня сторінка
               </router-link>
-              <router-link to="/projects" class="navbar-item">
+              <!-- <router-link to="/projects" class="navbar-item">
                 Проекти
               </router-link>
               <router-link to="/fotos" class="navbar-item">
                 Фото
-              </router-link>
+              </router-link> -->
               <span class="navbar-item">
                 <a class="button is-white is-outlined is-small" href="https://www.facebook.com/CoWorking.Shostka/">
                   <span class="icon">

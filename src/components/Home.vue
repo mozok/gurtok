@@ -6,7 +6,7 @@
             Сайт у розробці
           </h1>
           <h2 class="subtitle">
-            Комп'ютеризовані системи та програмування
+            Комп'ютеризовані системи та програмування <br>
             Гурток для обдарованої молоді Шостки
           </h2>
           <div class="box">
@@ -16,7 +16,7 @@
                 <input class="input" type="text" placeholder="Введіть свій email">
               </p>
               <p class="control">
-                <a class="button is-dark">
+                <a class="button is-dark" @click="mailSend">
                   Повідом Мене
                 </a>
               </p>
@@ -26,3 +26,14 @@
       </div>
     </div>
 </template>
+
+
+<script>
+  export default {
+    methods: {
+      mailSend () {
+        // console.log('send maill button')
+      }
+    }
+  }
+</script>
